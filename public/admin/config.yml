@@ -22,7 +22,7 @@ backend:
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 # Add site links in DecapCMS (optional)
-site_url: https://dauyom.com
+site_url: http://dauyomglobalnigerianlimited.netlify.app/
 
 media_folder: "src/content/cars"
 public_folder: "/src/content/cars"

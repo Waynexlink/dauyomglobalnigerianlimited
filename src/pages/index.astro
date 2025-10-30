@@ -2,6 +2,7 @@
 import BaseLayout from "@layouts/BaseLayout.astro";
 import Hero from "@components/Hero.astro";
 import MiniInventory from "@components/MiniInventory.astro";
+import FaqMaps from "@components/FaqMaps.astro";
 
 import { getCollection } from "astro:content";
 import { getImage } from "astro:assets";
@@ -33,28 +34,6 @@ const miniInventoryCars = sortedCars.slice(0, 6);
   <Hero heroImageUrl={optimizedImage.src} />
   <MiniInventory cars={miniInventoryCars} />
 
-  <!-- ============================================ -->
-  <!--                   Video                      -->
-  <!-- ============================================ -->
-  <section id="video-571">
-    <div class="cs-container">
-      <div class="cs-video-wrapper">
-        <!-- YouTube Embed -->
-        <iframe
-          class="cs-video-iframe"
-          src="https://www.youtube.com/embed/nCmoMZB2KTU"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        >
-        </iframe>
-      </div>
-      <div class="cs-content">
-        <h2 class="cs-video-title">Get the perfect ride for your taste</h2>
-      </div>
-    </div>
-  </section>
   <!-- ============================================ -->
   <!--               Car Logos Marquee             -->
   <!-- ============================================ -->
@@ -209,100 +188,158 @@ const miniInventoryCars = sortedCars.slice(0, 6);
               decoding="async"
             />
           </div>
+          <div class="cs-content">
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/toyota.svg"
+              alt="Toyota"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/honda.svg"
+              alt="Honda"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/nissan.svg"
+              alt="Nissan"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/mercedes.svg"
+              alt="Mercedes-Benz"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/bmw.svg"
+              alt="BMW"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/audi.svg"
+              alt="Audi"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/volkswagen.svg"
+              alt="Volkswagen"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/hyundai.svg"
+              alt="Hyundai"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <!-- Duplicate set for seamless loop -->
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/toyota.svg"
+              alt="Toyota"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/honda.svg"
+              alt="Honda"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/nissan.svg"
+              alt="Nissan"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/mercedes.svg"
+              alt="Mercedes-Benz"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/bmw.svg"
+              alt="BMW"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/audi.svg"
+              alt="Audi"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/volkswagen.svg"
+              alt="Volkswagen"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="cs-logo"
+              src="/assets/images/logos/hyundai.svg"
+              alt="Hyundai"
+              width="120"
+              height="80"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- ============================================ -->
-  <!--                  Map-FAQ                     -->
-  <!-- ============================================ -->
-
-  <section id="map-faq-2251">
-    <div class="cs-container">
-      <!-- FAQ Content - Left Side -->
-      <div class="cs-content">
-        <span class="cs-topper">Asked questions</span>
-        <h2 class="cs-title">Frequently Asked Questions</h2>
-        <ul class="cs-faq-group">
-          <li class="cs-faq-item active">
-            <button class="cs-button">
-              <span class="cs-button-text">
-                Do you deliver cars to my location?
-              </span>
-            </button>
-            <p class="cs-item-p">
-              Yes, we offer car delivery to most locations. Once your purchase
-              is confirmed, our team will help arrange delivery right to your
-              doorstep or a preferred pickup point.
-            </p>
-          </li>
-
-          <li class="cs-faq-item">
-            <button class="cs-button">
-              <span class="cs-button-text">
-                How can I proceed with a car I like?
-              </span>
-            </button>
-            <p class="cs-item-p">
-              You can call us directly, send a message on WhatsApp, or visit our
-              showroom to finalize your choice. Our team will guide you through
-              the next steps — from inspection to payment and paperwork.
-            </p>
-          </li>
-
-          <li class="cs-faq-item">
-            <button class="cs-button">
-              <span class="cs-button-text">
-                Do you offer installment payment options?
-              </span>
-            </button>
-            <p class="cs-item-p">
-              Yes, we offer flexible installment payment plans in partnership
-              with trusted finance providers. You can discuss available options
-              with our sales team to find a plan that suits your budget.
-            </p>
-          </li>
-
-          <li class="cs-faq-item">
-            <button class="cs-button">
-              <span class="cs-button-text">
-                Can I trade in my current car?
-              </span>
-            </button>
-            <p class="cs-item-p">
-              Absolutely! We accept trade-ins. Bring your current car for
-              evaluation, and we’ll offer you a fair value that can go toward
-              your new purchase.
-            </p>
-          </li>
-
-          <li class="cs-faq-item">
-            <button class="cs-button">
-              <span class="cs-button-text">
-                Are your cars inspected before sale?
-              </span>
-            </button>
-            <p class="cs-item-p">
-              Yes, every car we list goes through a thorough inspection process
-              to ensure it meets quality and performance standards before being
-              offered for sale.
-            </p>
-          </li>
-        </ul>
-      </div>
-
-      <!-- Map - Right Side -->
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.3770784981757!2d7.393479475020008!3d9.120372290944651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104ddfa995251bb1%3A0x523d353c043d6440!2sKENDOMON%20MOTORS!5e0!3m2!1sen!2sng!4v1760292294497!5m2!1sen!2sng"
-        title="Kendomon Motors Location"
-        width="600"
-        height="450"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </section>
+  <FaqMaps />
 </BaseLayout>
 
 <style lang="less">
@@ -479,198 +516,6 @@ const miniInventoryCars = sortedCars.slice(0, 6);
     }
     to {
       transform: translateY(-50%) translateX(-50%);
-    }
-  }
-
-  /*-- -------------------------- -->
-<---         Map-FAQ            -->
-<--- -------------------------- -*/
-
-  /* Mobile - 360px */
-  @media only screen and (min-width: 0rem) {
-    #map-faq-2251 {
-      padding: var(--sectionPadding);
-      background-color: #ffffff;
-      overflow: hidden;
-      position: relative;
-      z-index: 1;
-
-      .cs-container {
-        width: 100%;
-        max-width: (1280/16rem);
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        /* 40px - 48px */
-        gap: clamp(2.5rem, 5vw, 3rem);
-      }
-
-      .cs-content {
-        text-align: left;
-        width: 100%;
-      }
-
-      .cs-title {
-        margin: 0 0 (24/16rem) 0;
-      }
-
-      .cs-faq-group {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-
-      .cs-faq-item {
-        list-style: none;
-        width: 100%;
-        border-bottom: 1px solid #e8e8e8;
-        transition: border-bottom 0.3s;
-
-        &.active {
-          border-color: var(--primary);
-          .cs-button {
-            color: var(--primary);
-            &:before {
-              background-color: var(--primary);
-              transform: rotate(315deg);
-            }
-            &:after {
-              background-color: var(--primary);
-              transform: rotate(-315deg);
-            }
-          }
-          .cs-item-p {
-            height: auto;
-            /* 20px - 24px bottom */
-            /* 16px - 24px left & right */
-            padding: 0 clamp(1rem, 2vw, 1.5rem) clamp(1.25rem, 1.3vw, 1.5rem);
-            opacity: 1;
-          }
-        }
-      }
-
-      .cs-button {
-        font-size: (16/16rem);
-        line-height: 1.2em;
-        text-align: left;
-        font-weight: bold;
-        /* 16px - 20px */
-        padding: clamp(1rem, 1.3vw, 1.25rem);
-        border: none;
-        background: transparent;
-        color: var(--headerColor);
-        display: block;
-        width: 100%;
-        position: relative;
-        transition:
-          background-color 0.3s,
-          color 0.3s;
-
-        &:hover {
-          cursor: pointer;
-        }
-
-        &:before {
-          /* left line */
-          content: "";
-          width: (8/16rem);
-          height: (2/16rem);
-          background-color: var(--headerColor);
-          opacity: 1;
-          border-radius: 50%;
-          position: absolute;
-          display: block;
-          top: 45%;
-          right: (24/16rem);
-          transform: rotate(45deg);
-          /* animate the transform from the left side of the x axis, and the center of the y */
-          transform-origin: left center;
-          transition: transform 0.5s;
-        }
-
-        &:after {
-          /* right line */
-          content: "";
-          width: (8/16rem);
-          height: (2/16rem);
-          background-color: var(--headerColor);
-          opacity: 1;
-          border-radius: 50%;
-          position: absolute;
-          display: block;
-          top: 45%;
-          right: (21/16rem);
-          transform: rotate(-45deg);
-          /* animate the transform from the right side of the x axis, and the center of the y */
-          transform-origin: right center;
-          transition: transform 0.5s;
-        }
-      }
-
-      .cs-button-text {
-        width: 80%;
-        display: block;
-      }
-
-      .cs-item-p {
-        /* 14px - 16px */
-        font-size: clamp(0.875rem, 1.5vw, 1rem);
-        line-height: 1.5em;
-        width: 90%;
-        height: 0;
-        margin: 0;
-        /* 16px - 24px */
-        padding: 0 clamp(1rem, 2vw, 1.5rem);
-        opacity: 0;
-        color: var(--bodyTextColor);
-        /* clips the text so it doesn't show up */
-        overflow: hidden;
-        transition:
-          opacity 0.3s,
-          padding-bottom 0.3s;
-      }
-
-      iframe {
-        width: 100%;
-        height: 20rem;
-        border: 0;
-      }
-    }
-  }
-
-  /* Tablet - 768px */
-  @media only screen and (min-width: 48rem) {
-    #map-faq-2251 {
-      .cs-container {
-        flex-direction: row;
-        align-items: stretch;
-      }
-
-      .cs-content {
-        width: 50%;
-        max-width: (522/16rem);
-        /* prevents flexbox from squishing it */
-        flex: none;
-      }
-
-      iframe {
-        width: 50%;
-        height: auto;
-      }
-    }
-  }
-
-  /* Desktop - 1024px */
-  @media only screen and (min-width: 64rem) {
-    #map-faq-2251 {
-      .cs-container {
-        gap: (52/16rem);
-      }
     }
   }
 </style>
