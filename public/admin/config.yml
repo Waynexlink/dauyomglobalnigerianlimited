@@ -1,15 +1,15 @@
-# Decap CMS Configuration
-# Replace with your actual backend settings from decapbridge.com
-
-# Use DecapBridge auth (required)
+# Use DecapBridge PKCE auth (required)
 backend:
   name: git-gateway
   repo: Waynexlink/dauyomglobalnigerianlimited
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/efadd86b-d438-4cfc-b7f2-d82c386d4ccf
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/55941bfe-43ce-41ae-ba41-54c67d717242/pkce
+  auth_token_endpoint: /sites/55941bfe-43ce-41ae-ba41-54c67d717242/token
   gateway_url: https://gateway.decapbridge.com
 
-  # Quickly see who did what (optional)
+  # See who did what (optional)
   commit_messages:
     create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
     update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
@@ -21,8 +21,8 @@ backend:
 # Better Decap + Bridge logo (optional)
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
-# Add site links in DecapCMS (optional)
-site_url: http://dauyomglobalnigerianlimited.netlify.app/
+# Add site links in Decap CMS (optional)
+site_url: https://dauyomglobalnigerianlimited.netlify.app
 
 media_folder: "src/content/cars"
 public_folder: "/src/content/cars"
