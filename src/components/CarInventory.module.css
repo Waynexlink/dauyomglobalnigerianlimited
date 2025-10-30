@@ -20,7 +20,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.875rem 1.5rem;
-  background-color: hsl(129, 22%, 29%);
+  background-color: #00415a;
   color: #ffffff;
   border: none;
   border-radius: 0.25rem;
@@ -48,7 +48,7 @@
   min-width: 1.25rem;
   height: 1.25rem;
   padding: 0 0.375rem;
-  background-color: #3a5a3f;
+  background-color: #00415a;
   color: #ffffff;
   border-radius: 9999px;
   font-size: 0.75rem;

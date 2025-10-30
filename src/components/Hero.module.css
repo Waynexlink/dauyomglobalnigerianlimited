@@ -113,7 +113,7 @@
 
 /* Active state - only when dropdown is open */
 .selectButton.active {
-  border-bottom-color: #3a5a3f;
+  border-bottom-color: #00415a;
 }
 
 /* Remove persistent focus styling */
@@ -177,7 +177,7 @@
 
 .option:hover {
   background: #f0f4f1;
-  color: #3a5a3f;
+  color: #00415a;
 }
 
 .option:first-child {
@@ -197,7 +197,7 @@
   justify-content: center;
   gap: 0.5rem;
   padding: 0.875rem 2rem;
-  background: #3a5a3f;
+  background: #00415a;
   color: white;
   border: none;
   border-radius: 0.5rem;
