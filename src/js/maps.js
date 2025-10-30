@@ -3,12 +3,12 @@ const mapIframe = document.getElementById("location-map");
 
 const locations = {
   abuja: {
-    url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.3770784981757!2d7.393479475020008!3d9.120372290944651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104ddfa995251bb1%3A0x523d353c043d6440!2sKENDOMON%20MOTORS!5e0!3m2!1sen!2sng!4v1760292294497!5m2!1sen!2sng",
-    title: "Kendomon Motors Location - Abuja",
+    url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.3770784981757!2d7.393479475020008!3d9.120372290944651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104ddfa995251bb1%3A0x523d353c043d6440!2sDauyom%20MOTORS!5e0!3m2!1sen!2sng!4v1760292294497!5m2!1sen!2sng",
+    title: "Dauyom Motors Location - Abuja",
   },
   lagos: {
     url: "YOUR_LAGOS_GOOGLE_MAPS_EMBED_URL_HERE", // Replace with actual Lagos URL
-    title: "Kendomon Motors Location - Lagos",
+    title: "Dauyom Motors Location - Lagos",
   },
 };
 

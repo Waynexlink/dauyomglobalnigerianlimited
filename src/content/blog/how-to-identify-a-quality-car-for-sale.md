@@ -1,7 +1,7 @@
 ---
 title: How to Identify a Quality Car for Sale
 description: Learn the key things to check before buying a car — from engine condition to paperwork — so you can shop with confidence.
-author: Kendomon Motors Team
+author: dauyom Motors Team
 date: 2025-10-15T09:00:00.000Z
 image: src/assets/images/blog/quality-car-checklist.jpg
 imageAlt: A person inspecting a car engine before purchase
@@ -10,7 +10,7 @@ isFeatured: true
 
 Buying a car — whether new or used — is one of the biggest decisions you’ll make. But how do you know if a car for sale is truly **worth your money**?
 
-At Kendomon Motors, we help drivers make smarter purchases every day. Here’s a simple guide to spotting a **quality car** before you sign anything.
+At dauyom Motors, we help drivers make smarter purchases every day. Here’s a simple guide to spotting a **quality car** before you sign anything.
 
 ---
 
@@ -75,8 +75,8 @@ If anything feels off or missing, **walk away** — even the best-looking car is
 A good car is more than just shiny paint — it’s about **performance, reliability, and peace of mind**.  
 By following these simple checks, you’ll know when you’ve found a vehicle that’s truly worth it.
 
-At **Kendomon Motors**, we make that process even easier. Every car we list is thoroughly inspected and verified, so you can drive home knowing you made the right choice.
+At **dauyom Motors**, we make that process even easier. Every car we list is thoroughly inspected and verified, so you can drive home knowing you made the right choice.
 
 ---
 
-_Ready to find your next car? Explore our latest models and listings today at [Kendomon Motors](https://kendomonmotors.netlify.app/)._
+_Ready to find your next car? Explore our latest models and listings today at [dauyom Motors](https://dauyommotors.netlify.app/)._
