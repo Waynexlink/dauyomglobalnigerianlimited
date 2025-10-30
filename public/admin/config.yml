@@ -1,12 +1,9 @@
-# Use DecapBridge PKCE auth (required)
+# Use DecapBridge classic auth (required)
 backend:
   name: git-gateway
   repo: Waynexlink/dauyomglobalnigerianlimited
   branch: main
-  auth_type: pkce
-  base_url: https://auth.decapbridge.com
-  auth_endpoint: /sites/55941bfe-43ce-41ae-ba41-54c67d717242/pkce
-  auth_token_endpoint: /sites/55941bfe-43ce-41ae-ba41-54c67d717242/token
+  identity_url: https://auth.decapbridge.com/sites/4f681cae-2a12-4529-98bd-731e2e89123d
   gateway_url: https://gateway.decapbridge.com
 
   # See who did what (optional)
